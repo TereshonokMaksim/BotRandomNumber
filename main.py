@@ -9,6 +9,7 @@ import random
 # Створюємо об'єкт бота
 bot = telebot.TeleBot("5815303250:AAEyVTo1g1xwMO96NabBULGwiiOLXHD0-OA")
 # Обробник повідомлень
+print(bot)
 @bot.message_handler(commands=["start", "hello"])
 # Створюємо функцію обробника
 def bot_start(message):
